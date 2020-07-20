@@ -1,0 +1,30 @@
+{
+  "name": "smartapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pampsdeep/smartBrainAPI.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pampsdeep/smartBrainAPI/issues"
+  },
+  "homepage": "https://github.com/pampsdeep/smartBrainAPI#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "clarifai": "^2.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "git": "^0.1.5",
+    "knex": "^0.21.2",
+    "nodemon": "^2.0.4",
+    "pg": "^8.3.0"
+  }
+}
